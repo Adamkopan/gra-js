@@ -1,0 +1,11 @@
+{
+  "name": "gra-canvas",
+  "version": "1.0.0",
+  "description": "gra stworzona w oparciu o html5 i js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Adam Kopański",
+  "license": "ISC"
+}
