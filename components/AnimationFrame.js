@@ -1,4 +1,4 @@
-export class AnimationFrame {
+class AnimationFrame {
   constructor(fps = 60, animate) {
     this.requestID = 0;
     this.fps = fps;

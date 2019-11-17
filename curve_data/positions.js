@@ -1,4 +1,4 @@
-export const positions = () => {
+const positions = () => {
   const positions = [
     { x: 335, y: 440 },
     { x: 355, y: 420 },

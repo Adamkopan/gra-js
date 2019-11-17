@@ -1,5 +1,3 @@
-import { Game } from "./components/Game.js";
-
 const start = document.querySelector('.start');
 start.addEventListener('click', () => {
   start.style.display = "none";

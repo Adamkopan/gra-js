@@ -1,4 +1,4 @@
-export class Ball {
+class Ball {
   constructor(height, width, gameWidth, gameHeight) {
     this.gameHeight = gameHeight;
     this.gameWidth = gameWidth;

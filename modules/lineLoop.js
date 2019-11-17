@@ -1,4 +1,4 @@
-export const lineLoop = (canvas, ctx, flagForFlag, xFlag, flagHandle, flagOne, flagTwo, lose, speed, line, curve, ball, newball, ballPositionX, ballPositionY, ourFlag, hole) => {
+const lineLoop = (canvas, ctx, flagForFlag, xFlag, flagHandle, flagOne, flagTwo, lose, speed, line, curve, ball, newball, ballPositionX, ballPositionY, ourFlag, hole) => {
   ctx.clearRect(0, 0, canvas.width, canvas.height);
   ourFlag.update(ctx, flagHandle, flagOne, flagTwo, hole, xFlag, flagForFlag);
 

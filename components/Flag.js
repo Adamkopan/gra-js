@@ -1,4 +1,4 @@
-export class Flag {
+class Flag {
   draw(ctx, flagHandle, flagOne, flagTwo, hole, xFlag, flagForFlag) {
     flagHandle.addEventListener('load', () => {
       ctx.drawImage(flagHandle, xFlag, 330, 12, 154);

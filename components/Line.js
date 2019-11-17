@@ -1,4 +1,4 @@
-export class Line {
+class Line {
   constructor(gameWidth, gameHeight, xFlag, data) {
     this.gameHeight = gameHeight;
     this.gameWidth = gameWidth;

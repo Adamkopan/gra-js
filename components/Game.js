@@ -1,12 +1,4 @@
-import { Line } from "./Line.js";
-import { Ball } from "./Ball.js";
-import { Flag } from "./Flag.js";
-import { AnimationFrame } from "./AnimationFrame.js";
-import { positions } from "../curve_data/positions.js";
-import { random } from "../modules/random.js";
-import { lineLoop } from "../modules/lineLoop.js";
-
-export class Game {
+class Game {
   constructor(canvas, ctx, width, height, speed, Xflag, start = false) {
     this.start = start;
     this.canvas = canvas;
@@ -171,11 +163,11 @@ export class Game {
       ourFlag.update(ctx, flagHandle, flagOne, flagTwo, hole, this.xFlag, this.flagForFlag);
     }, 1000);
 
-    curve.src = "/img/object_dot.png";
-    newball.src = "/img/object_ball.png";
-    flagOne.src = "/img/object_flag_anim01.png";
-    flagTwo.src = "/img/object_flag_anim02.png";
-    flagHandle.src = "/img/object_flag_stick.png";
-    hole.src = "/img/object_hole.png";
+    curve.src = "./img/object_dot.png";
+    newball.src = "./img/object_ball.png";
+    flagOne.src = "./img/object_flag_anim01.png";
+    flagTwo.src = "./img/object_flag_anim02.png";
+    flagHandle.src = "./img/object_flag_stick.png";
+    hole.src = "./img/object_hole.png";
   }
 }
