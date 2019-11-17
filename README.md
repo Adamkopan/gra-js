@@ -1,3 +1,3 @@
 # gra-zadanie-testowe
 
-Link:
+Link: https://adamkopan.github.io/gra-zadanie-testowe/
